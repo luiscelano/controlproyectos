@@ -9,13 +9,13 @@ document.getElementById('navbar').innerHTML=`
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Mis proyectos <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html">Mis proyectos <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Nuevo Proyecto</a>
+                  <a class="nav-link" href="addProject.html">Nuevo Proyecto</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Iniciar Sesión</a>
                 </li>
               </ul>
             </div>

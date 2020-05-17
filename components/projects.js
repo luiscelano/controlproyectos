@@ -32,7 +32,6 @@
         createdAt:'	10/03/2017 07:29:46 -0700',
         modifiedAt:'A few minutes ago'
       },
-      
     ]
     function getData(x){
       document.getElementById(`${x}`).innerHTML=`
@@ -62,7 +61,7 @@
                       </div>     
       `
     }
-    document.getElementById("app").innerHTML = `${petsData.length!==0
+    document.getElementById("app").innerHTML = `${projects.length!==0
     ?`<div class="container gallery-container">
     <div class="cards">
         <div class="row">
@@ -70,7 +69,7 @@
         </div>                    
     </div>
   </div>`:`<div class="container my-3 py-5 text-center">      
-  <img src="building2.png" width="400" height="300">
+  <img src="assets/building2.png" width="400" height="300">
   <p class="mt-3">Por el momento no has creado ningún proyecto, presiona el botón de Nuevo Proyecto para empezar</p>
   </div>`}`;
   
