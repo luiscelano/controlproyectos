@@ -1,51 +1,3 @@
-const petsData = [
-    {
-      id:'4fd4v4sd5f84f',
-      name: "Purrsloud",
-      species: "Cat",
-      favFoods: ["wet food", "dry food", "<strong>any</strong> food"],
-      birthYear: 2016,
-      photo: "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
-    },
-    {
-      id:'f45sdf7857sd5f7',
-      name: "Barksalot",
-      species: "Dog",
-      birthYear: 2008,
-      photo: "https://learnwebcode.github.io/json-example/images/dog-1.jpg"
-    },
-    {
-      id:'jtyj784n56g4nryt',
-      name: "Meowsalot",
-      species: "Cat",
-      favFoods: ["tuna", "catnip", "celery"],
-      birthYear: 2012,
-      photo: "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
-    },
-    {
-      id:'4fd4v4sd5f84f',
-      name: "Purrsloud",
-      species: "Cat",
-      favFoods: ["wet food", "dry food", "<strong>any</strong> food"],
-      birthYear: 2016,
-      photo: "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
-    },
-    {
-      id:'f45sdf7857sd5f7',
-      name: "Barksalot",
-      species: "Dog",
-      birthYear: 2008,
-      photo: "https://learnwebcode.github.io/json-example/images/dog-1.jpg"
-    },
-    {
-      id:'jtyj784n56g4nryt',
-      name: "Meowsalot",
-      species: "Cat",
-      favFoods: ["tuna", "catnip", "celery"],
-      birthYear: 2012,
-      photo: "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
-    }
-    ];
     const projects=[
       {
         id:'4fd4v4sd5f84f',
@@ -82,26 +34,6 @@ const petsData = [
       },
       
     ]
-    
-    function age(birthYear) {
-      let calculatedAge = new Date().getFullYear() - birthYear;
-      if (calculatedAge == 1) {
-        return "1 year old";
-      } else if (calculatedAge == 0) {
-        return "Baby";
-      } else {
-        return `${calculatedAge} years old`;
-      }
-    }
-    
-    function foods(foods) {
-      return `
-    <h4>Favorite Foods</h4>
-    <ul class="foods-list">
-    ${foods.map(food => `<li>${food}</li>`).join("")}
-    </ul>
-    `;
-    }
     function getData(x){
       document.getElementById(`${x}`).innerHTML=`
       <div class="d-flex align-items-center">
@@ -115,16 +47,6 @@ const petsData = [
       setTimeout(function(){
         window.location = `./details.html?id=${data.id}`;
     }, 500);
-    }
-    function petTemplate(pet,x) {
-      return `
-        <div class="animal" id="animal" onClick="doSomething(${x})">
-        <img class="pet-photo" src="${pet.photo}">
-        <h2 class="pet-name">${pet.name} <span class="species">(${pet.species})</span></h2>
-        <p><strong>Age:</strong> ${age(pet.birthYear)}</p>
-        ${pet.favFoods ? foods(pet.favFoods) : ""}
-        </div>
-      `;
     }
     function template(info,x){
       return `
