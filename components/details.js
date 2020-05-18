@@ -8,7 +8,8 @@ const projects=[
       type:'Finanzas',
       to:'Carlos Sagastume',
       createdAt:'	10/03/2017 07:29:46 -0700',
-      modifiedAt:'A few minutes ago'
+      modifiedAt:'A few minutes ago',
+      date:'12/18/10'
     },
     {
       id:'f45sdf7857sd5f7',
@@ -19,7 +20,8 @@ const projects=[
       type:'Diseño',
       to:'Andrea Duarte',
       createdAt:'	10/03/2017 07:29:46 -0700',
-      modifiedAt:'A few hours ago'
+      modifiedAt:'A few hours ago',
+      date:'12/18/10'
     },
     {
       id:'jtyj784n56g4nryt',
@@ -30,7 +32,8 @@ const projects=[
       type:'Tecnología',
       to:'Jorge Sierra',
       createdAt:'	10/03/2017 07:29:46 -0700',
-      modifiedAt:'A few minutes ago'
+      modifiedAt:'A few minutes ago',
+      date:'12/18/10'
     },
     
   ]
@@ -49,6 +52,9 @@ const projects=[
           document.getElementById("title").innerHTML = value.title;
           document.getElementById("content").innerHTML = value.content;
           document.getElementById("modified").innerHTML = value.modifiedAt;
+          document.getElementById("from").innerHTML = `De: ${value.from}`;
+          document.getElementById("to").innerHTML = `Para: ${value.to}`;
+          document.getElementById("date").innerHTML = `Fecha de entrega: ${value.date}`;
         }
     })
     

@@ -55,7 +55,7 @@
                           <div class="card-body">
                             <h5 class="card-title">${info.title}</h5>
                             <p class="card-text">modified ${info.modifiedAt}</p>
-                            <div id="${x}"><a class="btn btn-primary" onClick="getData(${x})">Accept</a></div>
+                            <div id="${x}"><a class="btn btn-primary" onClick="getData(${x})">Ver proyecto</a></div>
                           </div>
                         </div>
                       </div>     
