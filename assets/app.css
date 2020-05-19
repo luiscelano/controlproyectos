@@ -86,3 +86,34 @@ body {
   place-items: center;
   height: 100vh;
  }
+ .max-lines {
+  display: block;/* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3.6em;
+  line-height: 1.8em;
+}
+.max-lines-title{
+  display: block;/* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 2.6em;
+  line-height: 1.2em;
+}
+.comment-wrapper .panel-body {
+  max-height:650px;
+  overflow:auto;
+}
+
+.comment-wrapper .media-list .media img {
+  width:64px;
+  height:64px;
+  border:2px solid #e5e7e8;
+}
+
+.comment-wrapper .media-list .media {
+  border-bottom:1px dashed #efefef;
+  margin-bottom:25px;
+}
