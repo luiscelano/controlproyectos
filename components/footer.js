@@ -1,6 +1,7 @@
+const year = new Date().getFullYear()
 document.getElementById('footer').innerHTML=`
-<footer>
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-          <a href="http://umg.edu.gt/">Universidad Mariano Galvez</a>
-        </div>
-      </footer>`
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>Copyright ${year}&copy; Universidad Mariano Gálvez</small>
+    </div>
+  </footer>`
