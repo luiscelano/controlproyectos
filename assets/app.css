@@ -71,9 +71,7 @@ body {
   p {
     font-size: 12px;
   }
-  .bg-dark{
-    background-color:#04204e !important;
-  }
+  
   .navbar-dark .navbar-nav .nav-link{
     font-weight: bold;
     font-size: 14px;
