@@ -1,7 +1,8 @@
 document.getElementById('navbar').innerHTML=`
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-    <div class="container">
-    <img src="assets/icono1v1.png" style="width:185px;">
+    <a class="navbar-brand" href="#">
+            <img src="assets/my-large-icon.png" width="180" alt="" loading="lazy">
+          </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -15,6 +16,5 @@ document.getElementById('navbar').innerHTML=`
           </li>
         </ul>
       </div>
-    </div>
   </nav>
 `
