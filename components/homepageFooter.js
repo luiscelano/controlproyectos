@@ -38,10 +38,10 @@ document.getElementById('footer').innerHTML=`
 
     <div class="col-md-4 col-sm-6 col-xs-12">
       <ul class="social-icons">
-        <li><a class="facebook"><i class="fa fa-facebook"><img src="../assets/fb.svg" width="25"></i></a></li>
-        <li><a class="twitter" href="#"><i class="fa fa-twitter"><img src="../assets/twitter.svg" width="25"></i></a></li>
-        <li><a class="ig" href="#"><i class="fa fa-ig"><img src="../assets/instagram.svg" width="50"></i></a></li>
-        <li><a class="github" href="#"><i class="fa fa-github"><img src="../assets/github.svg" width="25"></i></a></li>   
+        <li><a class="facebook"><i class="fa fa-facebook"><img src="assets/fb.svg" width="25"></i></a></li>
+        <li><a class="twitter" href="#"><i class="fa fa-twitter"><img src="assets/twitter.svg" width="25"></i></a></li>
+        <li><a class="ig" href="#"><i class="fa fa-ig"><img src="assets/instagram.svg" width="50"></i></a></li>
+        <li><a class="github" href="#"><i class="fa fa-github"><img src="assets/github.svg" width="25"></i></a></li>   
       </ul>
     </div>
   </div>

@@ -1,5 +1,5 @@
 document.getElementById('navbar').innerHTML=`
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom fixed-top">
             <a class="navbar-brand" href="../homepage.html" >
             <img src="../assets/my-large-icon.png" width="180" alt="" loading="lazy">
           </a>
