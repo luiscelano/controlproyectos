@@ -1,3 +1,6 @@
+/**
+ * Objecto que representa la simulación de los proyectos agregados a la base de datos
+ */
 const projects=[
   {
     id:'4fd4v4sd5f84f',
